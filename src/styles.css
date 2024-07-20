@@ -1,0 +1,145 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .text-container{
+ background-image: linear-gradient(to top, green 0%, rgba(4, 164, 84, 0.5) 50%, rgba(204, 234, 226, 0) 100%);
+ }
+ .text-container{
+  display: flex;
+ }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    
+  }
+  .addtask-btn{
+    margin-top: 10px;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+  }
+  
+  button.edit {
+    background-color: #ffc107;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2em;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #28a745;
+  }
+  
+  .task-actions button {
+    margin-left: 10px;
+  }
+  
+  .task-actions button:first-of-type {
+    margin-left: 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header .title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .header .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .actions .icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .header .actions .icon:hover {
+    opacity: 0.8;
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-item input[type="checkbox"] {
+    appearance: none;
+  }
+  
